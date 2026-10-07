@@ -1,0 +1,48 @@
+{
+  "metrics": {
+    "n_clusters": 4,
+    "silhouette": 0.09846548348042214
+  },
+  "profiles": {
+    "0": {
+      "size": 148,
+      "share": 0.148,
+      "mean_age": 35.0,
+      "mean_credit_amount": 8442.0,
+      "mean_duration": 39.1,
+      "bad_rate": 0.5,
+      "top_purpose": "used car",
+      "interpretation": "elevated-risk group with larger, longer-term loans (bad-rate 50%)."
+    },
+    "1": {
+      "size": 144,
+      "share": 0.144,
+      "mean_age": 38.7,
+      "mean_credit_amount": 2921.5,
+      "mean_duration": 18.6,
+      "bad_rate": 0.299,
+      "top_purpose": "new car",
+      "interpretation": "mixed-risk group with smaller, shorter-term loans (bad-rate 30%)."
+    },
+    "2": {
+      "size": 263,
+      "share": 0.263,
+      "mean_age": 45.9,
+      "mean_credit_amount": 2352.0,
+      "mean_duration": 17.9,
+      "bad_rate": 0.186,
+      "top_purpose": "radio/tv",
+      "interpretation": "lower-risk group with smaller, shorter-term loans (bad-rate 19%)."
+    },
+    "3": {
+      "size": 445,
+      "share": 0.445,
+      "mean_age": 28.6,
+      "mean_credit_amount": 2208.1,
+      "mean_duration": 17.4,
+      "bad_rate": 0.301,
+      "top_purpose": "radio/tv",
+      "interpretation": "mixed-risk group with smaller, shorter-term loans (bad-rate 30%)."
+    }
+  }
+}

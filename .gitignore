@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+models/*.pkl
+!models/.gitkeep
+.streamlit/
